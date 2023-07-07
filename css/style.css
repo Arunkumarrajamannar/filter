@@ -1,0 +1,84 @@
+
+
+
+body{
+    background: rgb(218, 155, 10)
+}
+.rainbow h3{
+    color: blanchedalmond;
+    text-align: center;
+    
+}
+
+.rainbow img{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    filter: blur(4px);
+}
+.rainbow img:hover{
+    filter: blur(0px);
+}
+
+
+.red h3{
+    color: aqua;
+    text-align: center;
+}
+.red img{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    filter: hue-rotate(60deg)
+}
+.red img:hover{
+    filter: hue-rotate(0deg)
+}
+
+.blue h3{
+    color: bisque;
+    text-align: center;
+}
+.blue img{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    filter: brightness(300%)
+}
+.blue img:hover{
+    filter:brightness(100%)
+}
+
+.green h3{
+    color: brown;
+    text-align: center;
+}
+.green img{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    filter: invert(1)
+}
+.green img:hover{
+    filter:invert(0)
+}
+
+.yellow h3{
+    color: blue;
+    text-align: center;
+}
+.yellow img{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    filter: grayscale(1)
+
+}
+.yellow img:hover{
+    filter: grayscale(0)
+}
